@@ -1,18 +1,19 @@
 import React from 'react';
 import { MenuWrapper } from './styles/MenuWrapper';
+import { Logo } from './theme/Logo';
 
 export default function Menu() {
   return (
     <MenuWrapper>
-      <div>
-        Logo Area (esquerda)
-      </div>
-      <div>
+      <MenuWrapper.LeftSide>
+        <Logo />
+      </MenuWrapper.LeftSide>
+      <MenuWrapper.CenterSide>
         Links Area (centro)
-      </div>
-      <div>
+      </MenuWrapper.CenterSide>
+      <MenuWrapper.RightSide>
         Buttons Area (direita)
-      </div>
+      </MenuWrapper.RightSide>
     </MenuWrapper>
   )
 }
