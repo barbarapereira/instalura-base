@@ -1,6 +1,6 @@
 import React from 'react';
 import { MenuWrapper } from './styles/MenuWrapper';
-import { Logo } from './theme/Logo';
+import { Logo } from '../../../theme/Logo'
 
 export default function Menu() {
   const links = [
